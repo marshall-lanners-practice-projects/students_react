@@ -1,0 +1,68 @@
+.student {
+	display: flex;
+	padding: 1%;
+}
+
+.studentImage {
+	width: 100px;
+	height: 100px;
+	border:solid grey 1px;
+	border-radius: 50%;
+	margin-right: 2%;
+}
+
+.student-name {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+.student-info {
+	color:grey;
+	line-height: 1.5;
+	margin-left: 10%;
+	display:flex;
+	flex-direction: column;
+}
+
+hr {
+	display: block; height: 1px;
+	border: 0; 
+	border-top: 1px solid #ccc;
+	padding: 0;
+}
+
+.search {
+	font-size: 15px;
+	border:none;
+	margin: 10px 0 0 1%;
+	color:grey;
+}
+
+.viewScores {
+	margin-left: auto;
+	padding-right: 2%;
+	font-size: 30px;
+	color:grey;
+}
+
+.viewScores:hover {
+	cursor:pointer;
+}
+
+.spacingTop {
+	margin-top: 10px;
+}
+
+.tag {
+  background-color: lightgray;
+  color: gray;
+  padding: 2%;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 3px;
+  margin: 10px 0 0 10%;
+}
+
+.tagForm {
+	margin-left: 8%;
+}
